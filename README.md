@@ -11,5 +11,8 @@
     conda activate {environment_name}
 ### Install Protobuf in project
     conda install protobuf
+    Add use_protobuf.py into models/research/ directory
+    cd models/research/
+    python use_protobuf.py object_detection/protos protoc
 
 ## Training New Model from Scratch

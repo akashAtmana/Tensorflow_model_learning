@@ -24,5 +24,13 @@
 ### Tensorflow Model Zoo
     pip install wget
     python model_downloader.py
+### Run Detection Script
+    Create a folder "outputs"
+    python .\detect_from_image.py -m ssd_mobilenet_v2_320x320_coco17_tpu-8\saved_model -l .\models\research\object_detection\data\mscoco_complete_label_map.pbtxt -i .\models\research\object_detection\test_images
+### Check Results in Outputs folder
+    ![detection_output0](https://user-images.githubusercontent.com/104552567/236894146-b911ffd2-0c3b-4fa4-aa73-c7e702d659fc.png)
+    ![detection_output1](https://user-images.githubusercontent.com/104552567/236894183-d64056d0-348a-4ca1-851a-7335f2f5a6dd.png)
+    ![detection_output2](https://user-images.githubusercontent.com/104552567/236894195-94f89b16-8225-4b51-b28c-31fd686d3bfb.png)
+
 
 ## Training New Model from Scratch

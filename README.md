@@ -6,11 +6,10 @@
     Protobuf
     Anaconda
 ### Create Virtual Environment
-```
-git clone https://github.com/tensorflow/models.git
-conda create -n {environment_name} pip python=3.9
-conda activate {environment_name}
-```
-
+    git clone https://github.com/tensorflow/models.git
+    conda create -n {environment_name} pip python=3.9
+    conda activate {environment_name}
+### Install Protobuf in project
+    conda install protobuf
 
 ## Training New Model from Scratch

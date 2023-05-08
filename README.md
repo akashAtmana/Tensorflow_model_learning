@@ -18,8 +18,11 @@
 ### Install Dependencies
     Copy /models/research/object_detection/packages/tf2/setup.py to models/research/ directory
     python -m pip install .
-Test all dependencies are installed or not
+### Test all dependencies are installed or not
     python object_detection\builders\model_builder_tf2_test.py
     If any dependecy is pending: conda install {name}
+### Tensorflow Model Zoo
+    pip install wget
+    python model_downloader.py
 
 ## Training New Model from Scratch

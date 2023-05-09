@@ -31,5 +31,7 @@
 ![thumbnail](./detection_output0.png)
 ![thumbnail](./detection_output1.png)
 ![thumbnail](./detection_output2.png)
+### Detection through Webcam
+    python .\detect_from_webcam.py -m ssd_mobilenet_v2_320x320_coco17_tpu-8\saved_model -l .\models\research\object_detection\data\mscoco_complete_label_map.pbtxt
 
 ## Training New Model from Scratch

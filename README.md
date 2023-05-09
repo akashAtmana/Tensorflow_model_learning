@@ -47,3 +47,14 @@
     Do the same for the test folder
 ### 3. Convert XML to CSV
     python xml_to_csv.py
+### 4. Generate TF records
+    python generate_tfrecord.py --csv_input=images/train_labels.csv --image_dir=images/train --output_path=train.record
+    python generate_tfrecord.py --csv_input=images/test_labels.csv --image_dir=images/test --output_path=test.record
+### 5. Tensorflow Model Zoo
+    pip install wget
+    python model_downloader.py
+### 6. Create LabelMap
+### 7. Edit Config file
+### 8. Start Training
+### 9. Export Model
+### 10. Run Detection Script

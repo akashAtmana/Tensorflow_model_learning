@@ -38,3 +38,12 @@
 ### 1. Pre- Setup
     Follow the previous steps 1 to 5 as it is
 ### 2. Preparing Images
+    Collect images for each category
+    Keep 80% of the Images from each category into one folder /images/train
+    Keep the rest 20% in another folder /images/test
+    pip install labelImg
+    labelImg.exe
+    Open the train directory in LabelImg and annotate each image- XML file for each image will be created
+    Do the same for the test folder
+### 3. Convert XML to CSV
+    python xml_to_csv.py
